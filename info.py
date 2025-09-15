@@ -27,7 +27,7 @@ ADMINS = [
     for admin in environ.get("ADMINS", "5872796211").split()
 ]
 OWNER_USERNAME = environ.get(
-    "OWNER_USERNAME", "tanim1254"
+    "OWNER_USERNAME", "@tanim1254"
 )  # without @ or https://t.me/
 USERNAME = environ.get("USERNAME", "tanim1254")  # ADMIN USERNAME
 
@@ -61,7 +61,7 @@ REQUEST_CHANNEL = (
     if request_channel and id_pattern.search(request_channel)
     else None
 )
-MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1001864434358"))
+MOVIE_UPDATE_CHANNEL = int(environ.get("MOVIE_UPDATE_CHANNEL", "-1002844047212"))
 
 # Added Link Here Not Id
 SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/mmp_support_chat")
